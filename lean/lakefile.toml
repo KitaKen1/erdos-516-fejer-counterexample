@@ -1,0 +1,11 @@
+name = "erdos516_fejer_fc"
+version = "0.1.0"
+defaultTargets = ["Erdos516FejerFC"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "61696dbe1a5c4ee31550b61a9f1ecac320c02f9d"
+
+[[lean_lib]]
+name = "Erdos516FejerFC"
